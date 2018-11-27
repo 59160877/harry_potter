@@ -8,6 +8,34 @@
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <style>
+        p {
+            font-family: "Poppins", Helvetica, Arial, sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #1e2022;
+            text-align: left;
+            background-color: #fff;
+        }
+
+        a:visited {
+            color: black;
+            text-decoration: none;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: blue;
+            text-decoration: none;
+        }
+
+        /* selected link */
+        a:active {
+            color: blue;
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -190,11 +218,11 @@
             </div>
     </section>
 
-
+    <!-- News -->
     <div class="container">
         <div class="columns">
             <div class="column is-one-third">
-                <nav class="level is-fixed">
+                <nav class="level is-flex">
                     <!-- Left side -->
                     <div class="level-left">
                         <aside class="menu">
@@ -243,6 +271,45 @@
                                         <br>
                                     </div>
                 </nav>
+
+                <nav class="level is-flex">
+                    <!-- Tags -->
+                    <div class="level-left">
+                        <aside class="menu">
+                            <div class="menu-title has-text-info has-text-weight-bold is-size-5">
+                                Tags
+                            </div>
+                            <br>
+                            <p class="buttons">
+                                <a class="button is-small is-rounded is-light">
+                                    <span>Design</span>
+                                </a>
+                                <a class="button is-small is-rounded is-light">
+                                    <span>Art</span>
+                                </a>
+                                <a class="button is-small is-rounded is-light">
+                                    <span>Graphic</span>
+                                </a>
+                            </p>
+                            <p class="buttons">
+                                <a class="button is-small is-rounded is-light">
+                                    <span>CSS</span>
+                                </a>
+                                <a class="button is-small is-rounded is-light">
+                                    <span>HTML</span>
+                                </a>
+                                <a class="button is-small is-rounded is-light">
+                                    <span>SASS</span>
+                                </a>
+                            </p>
+                            <p class="buttons">
+                                <a class="button is-small is-rounded is-light">
+                                    <span>WordPress</span>
+                                </a>
+                            </p>
+                        </aside>
+                    </div>
+                </nav>
             </div>
             <div class="column">
                 <article class="media">
@@ -252,10 +319,9 @@
                         </p>
                         <div class="media-content">
                             <div class="content">
+                                <br>
+                                <p><b><a href="1.html" target="_blank">Gryffindor</a></b></p>
                                 <p>
-                                    <br>
-                                    <strong>Gryffindor</strong>
-                                    <br>
                                     บ้านกริฟฟินดอร์ ( Gryffindor ) เป็นบ้านหนึ่งในนวนิยายเรื่อง แฮร์รี่ พอตเตอร์
                                     บ้านถูกก่อตั้งโดย ก็อดดริก กริฟฟินดอร์
                                 </p>
@@ -288,6 +354,7 @@
 
         </div>
     </div>
+
 
     <footer class="footer">
         <div class="content has-text-centered">
